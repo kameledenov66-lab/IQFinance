@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IQFinance — финансовая грамотность и накопления</title>
+    <meta
+      name="description"
+      content="IQFinance помогает планировать бюджет, контролировать расходы и достигать финансовых целей с накопительным режимом и умной аналитикой."
+    />
+    <meta name="theme-color" content="#0ea5a8" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Перейти к контенту</a>
+
+    <header class="nav" id="top">
+      <div class="container nav__inner">
+        <a class="brand" href="#top" aria-label="IQFinance — на главную">
+          <span class="brand__mark" aria-hidden="true">
+            <span class="brand__dot"></span>
+          </span>
+          <span class="brand__text">IQFinance</span>
+        </a>
+
+        <nav class="nav__links" aria-label="Основная навигация">
+          <a href="#benefits">Преимущества</a>
+          <a href="#numbers">Цифры</a>
+          <a href="#how">Как это работает</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#faq">FAQ</a>
+        </nav>
+
+        <div class="nav__actions">
+          <a class="btn btn--ghost btn--sm" href="#pricing">Смотреть тарифы</a>
+          <button
+            class="burger"
+            type="button"
+            aria-label="Открыть меню"
+            aria-controls="mobileMenu"
+            aria-expanded="false"
+          >
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+
+      <div class="mobile-menu" id="mobileMenu" hidden>
+        <div class="container mobile-menu__inner">
+          <a href="#benefits">Преимущества</a>
+          <a href="#numbers">Цифры</a>
+          <a href="#how">Как это работает</a>
+          <a href="#reviews">Отзывы</a>
+          <a href="#pricing">Тарифы</a>
+          <a href="#faq">FAQ</a>
+          <div class="mobile-menu__cta">
+            <a class="btn btn--primary" href="#cta">Начать бесплатно</a>
+            <a class="btn btn--ghost" href="#pricing">Тарифы</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-label="Главная секция">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="blob blob--a"></div>
+          <div class="blob blob--b"></div>
+          <div class="dot-grid"></div>
+        </div>
+
+        <div class="container hero__inner">
+          <div class="hero__left">
+            <div class="badge">
+              <span class="badge__ping" aria-hidden="true"></span>
+              <span class="badge__text">Умный бюджет • спокойные финансы</span>
+            </div>
+
+            <h1 class="h1">
+              Прокачайте <span class="grad">финансовую дисциплину</span> и копите
+              на мечты без стресса
+            </h1>
+
+            <p class="lead">
+              IQFinance помогает видеть полную картину доходов и расходов, строить
+              реальный план и постепенно накапливать на цели — вручную или
+              автоматически.
+            </p>
+
+            <ul class="checks" aria-label="Ключевые преимущества">
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Аналитика трат и понятная статистика по категориям
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Накопительный режим с блокировкой средств до цели
+              </li>
+              <li>
+                <span class="check" aria-hidden="true">✓</span>
+                Советы, которые превращают хаос в уверенный план
+              </li>
+            </ul>
+
+            <div class="hero__cta">
+              <a class="btn btn--primary" href="#cta">Начать бесплатно</a>
+              <a class="btn btn--ghost" href="#how">Посмотреть как работает</a>
+            </div>
+
+            <div class="social-proof" aria-label="Довольные клиенты">
+              <div class="avatars" aria-hidden="true">
+                <span class="avatar avatar--a">АК</span>
+                <span class="avatar avatar--b">МС</span>
+                <span class="avatar avatar--c">ДН</span>
+                <span class="avatar avatar--d">ЕР</span>
+              </div>
+              <div class="social-proof__text">
+                <strong>1200+</strong> довольных клиентов
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__right">
+            <div class="photo-wrap">
+              <div class="photo-blob" aria-hidden="true"></div>
+              <div class="photo-border" aria-hidden="true"></div>
+              <img
+                class="photo"
+                src="https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?auto=format&fit=crop&w=1400&q=80"
+                alt="Человек анализирует финансовый план"
+                loading="eager"
+                decoding="async"
+                referrerpolicy="no-referrer"
+              />
+
+              <div class="float-card reveal">
+                <div class="float-card__top">
+                  <div class="mini-metric">
+                    <span class="mini-metric__label">Рейтинг</span>
+                    <span class="mini-metric__value">4,9</span>
+                  </div>
+                  <div class="stars" aria-label="5 звёзд">
+                    <span aria-hidden="true">★★★★★</span>
+                  </div>
+                </div>
+                <div class="float-card__line"></div>
+                <div class="float-card__bottom">
+                  <span class="tag">Экономия</span>
+                  <span class="tag">Накопления</span>
+                  <span class="tag">Цели</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="mini-panel reveal">
+              <div class="mini-panel__title">Цель месяца</div>
+              <div class="mini-panel__value">
+                + 35 000 ₸ <span class="muted">в накопления</span>
+              </div>
+              <div class="progress" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100">
+                <span style="width: 68%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="marquee" aria-label="Партнёры и бренды">
+        <div class="container">
+          <div class="marquee__track" aria-hidden="true">
+            <div class="marquee__row">
+              <span>Kaspi</span><span>Halyk</span><span>Forte</span><span>Jusan</span><span>Home Credit</span><span>Mastercard</span><span>Visa</span><span>Google Pay</span><span>Apple Pay</span><span>Freedom</span>
+            </div>
+            <div class="marquee__row">
+              <span>Kaspi</span><span>Halyk</span><span>Forte</span><span>Jusan</span><span>Home Credit</span><span>Mastercard</span><span>Visa</span><span>Google Pay</span><span>Apple Pay</span><span>Freedom</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="benefits" aria-label="Преимущества">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">
+              Инструменты, которые делают финансы <span class="grad">понятными</span>
+            </h2>
+            <p class="sub">
+              Всё важное — в одном месте: учёт, аналитика, накопления и мягкая мотивация.
+            </p>
+          </div>
+
+          <div class="grid6">
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M3 12l2-2 4 4L19 4l2 2-12 12L3 12z" />
+                </svg>
+              </div>
+              <h3>Быстрый учёт</h3>
+              <p>Записывайте доходы и расходы за 5 секунд — без лишних полей.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19V5" />
+                  <path d="M8 19V9" />
+                  <path d="M12 19V13" />
+                  <path d="M16 19V7" />
+                  <path d="M20 19V11" />
+                </svg>
+              </div>
+              <h3>Честная статистика</h3>
+              <p>Понятные графики, категории и динамика — чтобы видеть реальную картину.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3v18" />
+                  <path d="M7 8l5-5 5 5" />
+                </svg>
+              </div>
+              <h3>Накопительный режим</h3>
+              <p>Поставьте цель и пополняйте “копилку” вручную или автоматически.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a7 7 0 0 0-7 7v3a7 7 0 0 0 14 0V9a7 7 0 0 0-7-7z" />
+                  <path d="M8 21h8" />
+                </svg>
+              </div>
+              <h3>Блокировка средств</h3>
+              <p>Сохраните дисциплину: средства “под цель” временно недоступны для трат.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M20 7l-8 8-4-4" />
+                  <path d="M4 17h16" />
+                </svg>
+              </div>
+              <h3>Умные подсказки</h3>
+              <p>Советы и “мягкие” правила помогают экономить без ощущения запретов.</p>
+            </article>
+
+            <article class="card reveal">
+              <div class="icon-pill" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 3l9 4.5-9 4.5-9-4.5L12 3z" />
+                  <path d="M3 12l9 4.5 9-4.5" />
+                  <path d="M3 16.5l9 4.5 9-4.5" />
+                </svg>
+              </div>
+              <h3>Сценарии целей</h3>
+              <p>Планируйте крупные цели: отпуск, ремонт, подушка безопасности — прозрачно.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="numbers" id="numbers" aria-label="Цифры">
+        <div class="container numbers__inner reveal">
+          <div class="metric">
+            <div class="metric__value">
+              <span class="count" data-count="37" data-suffix="%">0</span>
+            </div>
+            <div class="metric__label">среднее снижение импульсных трат</div>
+          </div>
+          <div class="metric">
+            <div class="metric__value">
+              <span class="count" data-count="1200" data-suffix="+">0</span>
+            </div>
+            <div class="metric__label">клиентов уже ведут бюджет</div>
+          </div>
+          <div class="metric">
+            <div class="metric__value">
+              <span class="count" data-count="9" data-suffix=" мин">0</span>
+            </div>
+            <div class="metric__label">в среднем на настройку первой цели</div>
+          </div>
+          <div class="metric">
+            <div class="metric__value">
+              <span class="count" data-count="4" data-suffix="×">0</span>
+            </div>
+            <div class="metric__label">быстрее принятие решений “покупать/не покупать”</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section how" id="how" aria-label="Как это работает">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Как IQFinance приводит к цели — в 3 шага</h2>
+            <p class="sub">Просто начать. Приятно продолжать. Видно результат.</p>
+          </div>
+
+          <div class="steps">
+            <article class="step reveal">
+              <div class="step__num">01</div>
+              <div class="step__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M7 7h10" />
+                  <path d="M7 12h6" />
+                  <path d="M7 17h10" />
+                  <path d="M5 4h14a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z" />
+                </svg>
+              </div>
+              <h3>Записывайте операции</h3>
+              <p>Фиксируйте расходы и доходы — вручную и быстро, без перегруза.</p>
+            </article>
+
+            <div class="connector" aria-hidden="true"></div>
+
+            <article class="step reveal">
+              <div class="step__num">02</div>
+              <div class="step__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 19h16" />
+                  <path d="M6 17V7" />
+                  <path d="M12 17V5" />
+                  <path d="M18 17V9" />
+                </svg>
+              </div>
+              <h3>Смотрите аналитику</h3>
+              <p>Понимайте, где “утекают” деньги, и что реально стоит оптимизировать.</p>
+            </article>
+
+            <div class="connector" aria-hidden="true"></div>
+
+            <article class="step reveal">
+              <div class="step__num">03</div>
+              <div class="step__icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2v20" />
+                  <path d="M7 6h10" />
+                  <path d="M7 18h10" />
+                  <path d="M9 10h6" />
+                  <path d="M9 14h6" />
+                </svg>
+              </div>
+              <h3>Копите на цель</h3>
+              <p>Создайте “копилку”, включите автопополнение и заберите деньги по достижении.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="reviews" aria-label="Отзывы">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Отзывы — честно и по делу</h2>
+            <p class="sub">Финансовая дисциплина — это не строгость. Это ясность.</p>
+          </div>
+
+          <div class="grid3">
+            <article class="review reveal">
+              <div class="quote" aria-hidden="true">“</div>
+              <p>
+                Раньше деньги “исчезали”. Теперь вижу, что именно съедало бюджет, и спокойно
+                откладываю на цель. Блокировка реально спасает от импульсивных покупок.
+              </p>
+              <div class="review__foot">
+                <div class="initials">А</div>
+                <div>
+                  <div class="name">Айгерим</div>
+                  <div class="stars small" aria-label="5 звёзд"><span aria-hidden="true">★★★★★</span></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="review reveal">
+              <div class="quote" aria-hidden="true">“</div>
+              <p>
+                Понравилось, что всё очень понятно: категории, динамика, подсказки. За месяц
+                стало легче принимать решения — “надо/не надо”.
+              </p>
+              <div class="review__foot">
+                <div class="initials">М</div>
+                <div>
+                  <div class="name">Марат</div>
+                  <div class="stars small" aria-label="5 звёзд"><span aria-hidden="true">★★★★★</span></div>
+                </div>
+              </div>
+            </article>
+
+            <article class="review reveal">
+              <div class="quote" aria-hidden="true">“</div>
+              <p>
+                Автопополнение — топ. Поставила цель на подушку безопасности, и теперь это
+                происходит “само”. Сервис мотивирует, но не давит.
+              </p>
+              <div class="review__foot">
+                <div class="initials">Д</div>
+                <div>
+                  <div class="name">Дина</div>
+                  <div class="stars small" aria-label="5 звёзд"><span aria-hidden="true">★★★★★</span></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section pricing" id="pricing" aria-label="Тарифы">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">Тарифы под ваш стиль управления деньгами</h2>
+            <p class="sub">Месяц — для старта. Год — для системного прогресса.</p>
+          </div>
+
+          <div class="billing reveal" aria-label="Переключатель тарифов">
+            <span class="muted">Месяц</span>
+            <button class="toggle" id="billingToggle" type="button" aria-pressed="false">
+              <span class="toggle__thumb" aria-hidden="true"></span>
+            </button>
+            <span class="muted">Год</span>
+            <span class="discount">-20% при оплате за год</span>
+          </div>
+
+          <div class="grid3 pricing__grid">
+            <article class="plan reveal" data-plan="start">
+              <h3>Старт</h3>
+              <p class="plan__desc">Для тех, кто хочет навести порядок.</p>
+              <div class="price">
+                <span class="price__value" data-month="0" data-year="0">0</span>
+                <span class="price__cur">₸</span>
+                <span class="price__per muted">/ <span class="per-label">мес</span></span>
+              </div>
+              <ul class="list">
+                <li>Учёт доходов и расходов</li>
+                <li>Категории и базовые отчёты</li>
+                <li>1 финансовая цель</li>
+                <li>Экспорт в CSV</li>
+              </ul>
+              <a class="btn btn--ghost" href="#cta">Попробовать</a>
+            </article>
+
+            <article class="plan plan--popular reveal" data-plan="pro">
+              <div class="plan__badge">Популярный</div>
+              <h3>Pro</h3>
+              <p class="plan__desc">Лучший баланс аналитики и накоплений.</p>
+              <div class="price">
+                <span class="price__value" data-month="2990" data-year="28700">2990</span>
+                <span class="price__cur">₸</span>
+                <span class="price__per">/ <span class="per-label">мес</span></span>
+              </div>
+              <ul class="list">
+                <li>Умные подсказки и правила</li>
+                <li>Накопительный режим + блокировка</li>
+                <li>Автопополнение целей</li>
+                <li>Расширенная статистика</li>
+              </ul>
+              <a class="btn btn--primary btn--invert" href="#cta">Выбрать Pro</a>
+            </article>
+
+            <article class="plan reveal" data-plan="team">
+              <h3>Семья</h3>
+              <p class="plan__desc">Совместный бюджет и общие цели.</p>
+              <div class="price">
+                <span class="price__value" data-month="4990" data-year="47900">4990</span>
+                <span class="price__cur">₸</span>
+                <span class="price__per muted">/ <span class="per-label">мес</span></span>
+              </div>
+              <ul class="list">
+                <li>До 5 участников</li>
+                <li>Общие категории и лимиты</li>
+                <li>Цели для семьи</li>
+                <li>Сводные отчёты по ролям</li>
+              </ul>
+              <a class="btn btn--ghost" href="#cta">Подключить</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq" id="faq" aria-label="Частые вопросы">
+        <div class="container">
+          <div class="section__head">
+            <h2 class="h2">FAQ</h2>
+            <p class="sub">Отвечаем на вопросы, которые помогают начать без сомнений.</p>
+          </div>
+
+          <div class="accordion">
+            <details class="qa reveal">
+              <summary>
+                Как работает “накопительный режим” и блокировка средств?
+                <span class="chev" aria-hidden="true"></span>
+              </summary>
+              <div class="qa__body">
+                Вы создаёте цель и пополняете накопительный счёт. Сумма на нём помечается как
+                “под цель” и временно недоступна для расходов — это помогает не сорваться и
+                довести накопление до результата.
+              </div>
+            </details>
+
+            <details class="qa reveal">
+              <summary>
+                Можно ли включить автоматическое пополнение каждый месяц?
+                <span class="chev" aria-hidden="true"></span>
+              </summary>
+              <div class="qa__body">
+                Да. Вы выбираете сумму и дату, а система откладывает деньги регулярно. При
+                необходимости настройку можно менять — без “штрафов” и сложных условий.
+              </div>
+            </details>
+
+            <details class="qa reveal">
+              <summary>
+                Что если я хочу вести бюджет очень просто, без “финансового давления”?
+                <span class="chev" aria-hidden="true"></span>
+              </summary>
+              <div class="qa__body">
+                IQFinance создан так, чтобы поддерживать, а не заставлять. Подсказки — мягкие,
+                интерфейс — минималистичный, а статистика объясняет, а не осуждает.
+              </div>
+            </details>
+
+            <details class="qa reveal">
+              <summary>
+                Подходит ли сервис для целей вроде “1 000 000 ₸”?
+                <span class="chev" aria-hidden="true"></span>
+              </summary>
+              <div class="qa__body">
+                Да. Для крупных целей удобно включать автопополнение и видеть прогресс. Можно
+                разбивать цель на этапы и заранее оценивать срок достижения.
+              </div>
+            </details>
+
+            <details class="qa reveal">
+              <summary>
+                Могу ли я забрать деньги раньше, если ситуация изменилась?
+                <span class="chev" aria-hidden="true"></span>
+              </summary>
+              <div class="qa__body">
+                Да. Блокировка — это инструмент дисциплины, а не запрет. Вы можете снять деньги,
+                если нужно. Но сервис честно покажет, как это влияет на срок достижения цели.
+              </div>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta" id="cta" aria-label="Финальный призыв">
+        <div class="container cta__inner reveal">
+          <div class="cta__left">
+            <h2 class="h2 h2--white">
+              Начните вести бюджет сегодня — и почувствуйте спокойствие уже через неделю
+            </h2>
+            <p class="sub sub--white">
+              Оставьте email — пришлём доступ и короткий чек-лист “Как не срываться с накоплений”.
+            </p>
+          </div>
+
+          <form class="cta__form" action="#" method="post" onsubmit="return false">
+            <label class="sr-only" for="email">Email</label>
+            <input
+              id="email"
+              class="input"
+              type="email"
+              placeholder="Введите ваш email"
+              autocomplete="email"
+              required
+            />
+            <button class="btn btn--primary btn--solid" type="submit">
+              Получить доступ
+            </button>
+            <div class="tiny tiny--white">
+              Никакого спама. Только полезные материалы и доступ к продукту.
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" aria-label="Футер">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <div class="brand brand--footer">
+            <span class="brand__mark" aria-hidden="true"><span class="brand__dot"></span></span>
+            <span class="brand__text">IQFinance</span>
+          </div>
+          <p class="muted">
+            Финансовая грамотность, дисциплина и накопления — в одном понятном сервисе.
+          </p>
+          <div class="socials" aria-label="Социальные сети">
+            <a class="social" href="#" aria-label="Instagram" title="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="3" width="18" height="18" rx="5" />
+                <path d="M16 11.37a4 4 0 1 1-7.94 1.26A4 4 0 0 1 16 11.37z" />
+                <path d="M17.5 6.5h.01" />
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="Telegram" title="Telegram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 2L11 13" />
+                <path d="M22 2l-7 20-4-9-9-4 20-7z" />
+              </svg>
+            </a>
+            <a class="social" href="#" aria-label="YouTube" title="YouTube">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12s0-5-1-6-6-1-9-1-8 0-9 1-1 6-1 6 0 5 1 6 6 1 9 1 8 0 9-1 1-6 1-6z" />
+                <path d="M10 15l5-3-5-3v6z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__cols">
+          <div class="col">
+            <div class="col__title">Продукт</div>
+            <a href="#benefits">Преимущества</a>
+            <a href="#how">Как это работает</a>
+            <a href="#pricing">Тарифы</a>
+          </div>
+          <div class="col">
+            <div class="col__title">Материалы</div>
+            <a href="#faq">FAQ</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#cta">Получить доступ</a>
+          </div>
+          <div class="col">
+            <div class="col__title">Контакты</div>
+            <a href="mailto:hello@iqfinance.kz">hello@iqfinance.kz</a>
+            <a href="#">Политика конфиденциальности</a>
+            <a href="#">Пользовательское соглашение</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <span class="muted">© <span id="year"></span> IQFinance. Все права защищены.</span>
+        <a class="to-top" href="#top">Наверх</a>
+      </div>
+    </footer>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
